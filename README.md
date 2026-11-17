@@ -5,6 +5,12 @@
 
 **مهم للتوثيق:** هذه الحزمة أُعيد إعدادها من ملفات المخطط والمخرجات المحفوظة لمساعدة الآخرين على تكرار طريقة العمل؛ وهي ليست ادعاءً بأن كل سطر من الكود أو نص التعليمات هو الملف التاريخي نفسه الذي شغّل التجربة. يجب توثيق نسخة النموذج الفعلية وسجل استدعاءاته بصورة مستقلة عند النشر.
 
+### النموذج وتاريخ التشغيل
+- يستدعي كود مرحلة المعالجة الموثّقة معرّف النموذج `gpt-4o` عبر واجهة OpenAI البرمجية، ودرجة الحرارة مضبوطة على 0.3 في أحد سكربتاته.
+- لا يتوفر سجل طلبات أصلي يثبت نسخة النموذج المؤرخة (snapshot) أو يوم التشغيل وشهره، ولذلك لا تدّعي هذه الحزمة أيًّا منهما. وذِكر GPT-4 Turbo وإعداداته في مسودة المخطوطة غير مثبت بسجل طلبات أصلي متاح.
+- القيمة الافتراضية لدرجة الحرارة في `annotate_pipeline.py` هي 0.2؛ ولمطابقة الإعداد الموثّق يُمرَّر `--temperature 0.3`.
+- يحفظ `annotate_pipeline.py` مع كل طلب جديد المعرّف الذي تعيده الواجهة (`model_returned`) ومعرّف الطلب (`response_id`) وتاريخ UTC (`run_at_utc`).
+
 ### المحتويات
 - `annotation_taxonomy.json`: 146 وسمًا مع التعريفات العربية المستخرجة من ملف المخطط المرفق (29 أيديولوجيًا، 27 تركيبيًا، 39 وظيفيًا، 51 خطابيًا)
 - `prompt_ar.md`: نص تعليمات علمي مقترح للإعادة، وليس نسخة مؤرخة من البرومبت الأصلي
@@ -42,3 +48,5 @@ python agreement_metrics.py --input reviewers.csv --out outputs/agreement
 
 ### Disclosure
 The code and prompt are a newly constructed reproducibility implementation informed by the source files, not a verbatim historical artifact. Model aliases may change; record the `response.model`, request ID, and UTC timestamp at runtime for future studies.
+
+The documented processing code calls the model identifier `gpt-4o`, with temperature 0.3 in one of its scripts. No original request log is available, so neither the dated model snapshot nor the run date is claimed here.
