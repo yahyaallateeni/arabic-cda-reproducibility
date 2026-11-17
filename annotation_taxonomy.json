@@ -1,0 +1,832 @@
+{
+  "source": "الوسم بالعربي والإنجليزي.xlsx",
+  "status": "documented taxonomy; includes source descriptions, not a validation of annotation quality",
+  "levels": {
+    "ideological": [
+      {
+        "tag": "Positive_Self",
+        "description_ar": "تمجيد الذات (أمة، دولة، جماعة، عقيدة)",
+        "label_ar": "تمجيد الذات",
+        "observed_ar_variant": "تمجيد الذات"
+      },
+      {
+        "tag": "Negative_Other",
+        "description_ar": "تشويه الآخر (خصم، عدو، استعمار، طائفة، قومية، نظام)",
+        "label_ar": "تشويه الآخر",
+        "observed_ar_variant": "تشويه الآخر"
+      },
+      {
+        "tag": "Ideological_Value",
+        "description_ar": "تمرير قيم أيديولوجية دينية أو سياسية موجهة للوعي العام",
+        "label_ar": "قيم أيديولوجية",
+        "observed_ar_variant": "تمرير قيم أيديولوجية"
+      },
+      {
+        "tag": "Call_for_Solidarity",
+        "description_ar": "دعوة للوحدة أو التماسك الداخلي أو الاصطفاف الجماعي",
+        "label_ar": "دعوة إلى التضامن",
+        "observed_ar_variant": "دعوة للتضامن"
+      },
+      {
+        "tag": "Religious_Legitimation",
+        "description_ar": "إضفاء شرعية دينية على المواقف أو الدعوات",
+        "label_ar": "شرعنة دينية",
+        "observed_ar_variant": "شرعنة دينية"
+      },
+      {
+        "tag": "National_Legitimation",
+        "description_ar": "إضفاء شرعية قومية أو وطنية على موقف معين",
+        "label_ar": "شرعنة وطنية",
+        "observed_ar_variant": "شرعنة وطنية/قومية"
+      },
+      {
+        "tag": "Historical_Continuity",
+        "description_ar": "ربط الموقف الحالي بسياق تاريخي ممتد لتبرير الحاضر",
+        "label_ar": "استمرارية تاريخية",
+        "observed_ar_variant": "استمرارية تاريخية"
+      },
+      {
+        "tag": "Moral_Polarization",
+        "description_ar": "تقسيم العالم إلى خير/شر، إيمان/كفر، حق/باطل",
+        "label_ar": "استقطاب أخلاقي",
+        "observed_ar_variant": "استقطاب أخلاقي"
+      },
+      {
+        "tag": "Victimization",
+        "description_ar": "تصوير الذات أو الآخر في موقع الضحية لاستدرار التعاطف",
+        "label_ar": "تصوير الذات/الآخر كضحية",
+        "observed_ar_variant": "تصوير الذات/الآخر كضحية"
+      },
+      {
+        "tag": "Enemy_Threat",
+        "description_ar": "تصوير الآخر كخطر وجودي على الذات",
+        "label_ar": "تهديد العدو",
+        "observed_ar_variant": "تهديد العدو"
+      },
+      {
+        "tag": "Divine_Reward",
+        "description_ar": "الإشارة إلى الجزاء الإلهي للمؤمنين أو العقوبة للأعداء",
+        "label_ar": "جزاء إلهي",
+        "observed_ar_variant": "جزاء/عقاب إلهي"
+      },
+      {
+        "tag": "Glorification_of_Act",
+        "description_ar": "تمجيد فعل سياسي/ديني/اجتماعي وربطه بالمثل العليا",
+        "label_ar": "تمجيد الفعل",
+        "observed_ar_variant": "تمجيد الفعل"
+      },
+      {
+        "tag": "Dehumanization",
+        "description_ar": "تجريد العدو من الإنسانية عبر الوصف المجازي أو المباشر",
+        "label_ar": "نزع الإنسانية",
+        "observed_ar_variant": "نزع الإنسانية"
+      },
+      {
+        "tag": "Militant_Tone",
+        "description_ar": "اعتماد لغة تعبئة وجهاد وقتال",
+        "label_ar": "نبرة قتالية",
+        "observed_ar_variant": "نبرة تعبوية/قتالية"
+      },
+      {
+        "tag": "Sacred_Space",
+        "description_ar": "تصوير المكان كرمز ديني/روحي/رسالي",
+        "label_ar": "مكان مقدس"
+      },
+      {
+        "tag": "Symbolic_Action",
+        "description_ar": "تمثيل الأفعال كرموز لها بعد روحي أو تاريخي",
+        "label_ar": "فعل رمزي",
+        "observed_ar_variant": "فعل رمزي"
+      },
+      {
+        "tag": "Binary_Opposition",
+        "description_ar": "استعمال التقابلات الحادة (نحن/هم، نور/ظلام)",
+        "label_ar": "تقابل ثنائي",
+        "observed_ar_variant": "تقابل ثنائي (نحن/هم)"
+      },
+      {
+        "tag": "Urgency_Call",
+        "description_ar": "دعوة مستعجلة للتحرك أو الاستجابة",
+        "label_ar": "دعوة عاجلة",
+        "observed_ar_variant": "دعوة عاجلة"
+      },
+      {
+        "tag": "Prophetic_Tone",
+        "description_ar": "نبرة تنبؤية أو شبه دينية بشأن المستقبل",
+        "label_ar": "نبرة تنبؤية"
+      },
+      {
+        "tag": "Legitimation_by_Suffering",
+        "description_ar": "استخدام المعاناة لتبرير المواقف أو الأفعال",
+        "label_ar": "شرعنة بالمعاناة"
+      },
+      {
+        "tag": "Moral_Exhortation",
+        "description_ar": "وعظ أخلاقي ضمني أو مباشر للناس",
+        "label_ar": "وعظ أخلاقي",
+        "observed_ar_variant": "وعظ أخلاقي"
+      },
+      {
+        "tag": "Delegitimization",
+        "description_ar": "نزع الشرعية عن الآخر (دينياً، سياسياً، أخلاقياً)",
+        "label_ar": "نزع الشرعية",
+        "observed_ar_variant": "نزع الشرعية"
+      },
+      {
+        "tag": "Inclusive_Us",
+        "description_ar": "استخدام الضمير الجمعي للتقريب والاحتواء (\"نحن\")",
+        "label_ar": "نحن الشاملة",
+        "observed_ar_variant": "نحن الشاملة"
+      },
+      {
+        "tag": "Exclusive_Them",
+        "description_ar": "استخدام \"هم\" لعزل الآخر أو تحميله المسؤولية",
+        "label_ar": "هم الإقصائية",
+        "observed_ar_variant": "هم الإقصائية"
+      },
+      {
+        "tag": "Crisis_Framing",
+        "description_ar": "تصوير الواقع بوصفه أزمة/كارثة تستلزم تدخلًا عاجلًا",
+        "label_ar": "تأطير الأزمة",
+        "observed_ar_variant": "تصوير/إطار الأزمة"
+      },
+      {
+        "tag": "Hope_Invocation",
+        "description_ar": "زرع أمل مستقبلي كمحفز للتضحية أو الصبر",
+        "label_ar": "استدعاء الأمل",
+        "observed_ar_variant": "استدعاء الأمل"
+      },
+      {
+        "tag": "Global_Dimension",
+        "description_ar": "ربط القضية بالبُعد العالمي أو الإسلام العالمي أو القيم الكونية",
+        "label_ar": "البعد العالمي"
+      },
+      {
+        "tag": "Call_to_Action",
+        "description_ar": "دعوة صريحة للقيام بفعل (مادي، شعبي، احتجاجي، إلخ)",
+        "label_ar": "دعوة إلى الفعل",
+        "observed_ar_variant": "دعوة للفعل"
+      },
+      {
+        "tag": "Ancestral_Authority",
+        "description_ar": "الاستناد إلى سلطة الأسلاف أو الرموز التاريخية",
+        "label_ar": "سلطة الأسلاف"
+      }
+    ],
+    "syntactic": [
+      {
+        "tag": "Passive_Voice",
+        "description_ar": "استخدام المبني للمجهول لإخفاء الفاعل أو التلاعب بمصدر الفعل",
+        "label_ar": "المبني للمجهول",
+        "observed_ar_variant": "مبني للمجهول"
+      },
+      {
+        "tag": "Agent_Omission",
+        "description_ar": "حذف الفاعل لتجنب إسناد مباشر أو للإيحاء بعمومية الحدث",
+        "label_ar": "حذف الفاعل"
+      },
+      {
+        "tag": "Nominalization",
+        "description_ar": "تحويل الأفعال إلى أسماء (مثل \"القتل\" بدلاً من \"قتل\") لتغليف الفعل",
+        "label_ar": "الاسمية",
+        "observed_ar_variant": "الاسمية (تحويل الفعل إلى اسم)"
+      },
+      {
+        "tag": "Parallel_Structure",
+        "description_ar": "استخدام بنى متوازية لتقوية الخطاب أو لإبراز ثنائيات",
+        "label_ar": "بنية متوازية",
+        "observed_ar_variant": "بنية متوازية"
+      },
+      {
+        "tag": "Clausal_Embedding",
+        "description_ar": "تضمين جملة داخل أخرى لتكثيف المعنى أو تقييد التأويل",
+        "label_ar": "تضمين جملة",
+        "observed_ar_variant": "تضمين جملة داخل أخرى"
+      },
+      {
+        "tag": "Conditional_Structure",
+        "description_ar": "استخدام الشروط لتقييد الحكم أو تعليقه بـ \"إذا\"، \"لو\"، إلخ",
+        "label_ar": "بنية شرطية",
+        "observed_ar_variant": "تركيب شرطي"
+      },
+      {
+        "tag": "Fronting",
+        "description_ar": "تقديم عنصر في الجملة لغايات التركيز أو التأثير",
+        "label_ar": "تقديم"
+      },
+      {
+        "tag": "Cleft_Structure",
+        "description_ar": "بنية الفصل (مثل: \"الذي حصل هو أن...\") لإبراز معلومة خاصة",
+        "label_ar": "بنية فصل",
+        "observed_ar_variant": "بنية الفصل"
+      },
+      {
+        "tag": "Topicalization",
+        "description_ar": "تقديم المفعول به أو غيره كبداية للجملة لتأكيد معناه",
+        "label_ar": "تصدير الموضوع",
+        "observed_ar_variant": "تقديم الموضوع (تتميم)"
+      },
+      {
+        "tag": "Thematic_Progression",
+        "description_ar": "تسلسل المواضيع (Topic–Comment) داخل الفقرة وتحولاتها",
+        "label_ar": "تدرج موضوعي"
+      },
+      {
+        "tag": "Deixis_Use",
+        "description_ar": "استخدام ألفاظ الإشارة (هذا، هناك، الآن) لربط النص بموقع أو زمن",
+        "label_ar": "إشاريات"
+      },
+      {
+        "tag": "Tense_Shift",
+        "description_ar": "الانتقال بين أزمنة مختلفة لتحقيق تأثير زمني/إيديولوجي",
+        "label_ar": "تحوّل زمني",
+        "observed_ar_variant": "تحول زمني"
+      },
+      {
+        "tag": "Modality_Use",
+        "description_ar": "استخدام الأفعال الناقصة (قد، يمكن، يجب) للدلالة على الاحتمال أو الإلزام",
+        "label_ar": "جهة الاحتمال والإلزام"
+      },
+      {
+        "tag": "Hedging",
+        "description_ar": "تلطيف الحكم أو جعله غير مباشر باستخدام \"ربما\"، \"نوعا ما\"",
+        "label_ar": "التحوّط اللغوي",
+        "observed_ar_variant": "تلطيف/تحوّط"
+      },
+      {
+        "tag": "Emphatic_Modifier",
+        "description_ar": "تعزيز الحكم بألفاظ مثل \"جداً\"، \"بلا شك\"",
+        "label_ar": "تعزيز توكيدي",
+        "observed_ar_variant": "مُعزِّز تأكيدي (جداً/بلا شك)"
+      },
+      {
+        "tag": "Negation",
+        "description_ar": "استخدام النفي كأداة لتوجيه المعنى أو تضاد ضمني",
+        "label_ar": "نفي",
+        "observed_ar_variant": "نفي"
+      },
+      {
+        "tag": "Interrogative_Form",
+        "description_ar": "استعمال الأسئلة لأغراض بلاغية أو استفهامية ضمنية",
+        "label_ar": "استفهام",
+        "observed_ar_variant": "صيغة استفهامية/سؤال"
+      },
+      {
+        "tag": "Anaphora",
+        "description_ar": "الإحالة على عنصر سابق باستخدام ضمير أو إشارة",
+        "label_ar": "إحالة قبلية"
+      },
+      {
+        "tag": "Cataphora",
+        "description_ar": "الإشارة إلى عنصر لاحق في الخطاب",
+        "label_ar": "إحالة بعدية"
+      },
+      {
+        "tag": "Apposition",
+        "description_ar": "توضيح اسم باسم آخر مقابله أو تفسيريًا (مثل: خامنئي، القائد الأعلى)",
+        "label_ar": "بدل أو عطف بيان"
+      },
+      {
+        "tag": "Repetition",
+        "description_ar": "تكرار كلمات أو تراكيب لتعزيز رسالة معينة",
+        "label_ar": "تكرار",
+        "observed_ar_variant": "تكرار"
+      },
+      {
+        "tag": "Imperative_Form",
+        "description_ar": "استخدام صيغة الأمر للتحفيز أو التوجيه المباشر",
+        "label_ar": "صيغة الأمر",
+        "observed_ar_variant": "صيغة أمر"
+      },
+      {
+        "tag": "Inversion",
+        "description_ar": "قلب ترتيب الكلمات المألوف لتأكيد عنصر معين",
+        "label_ar": "قلب ترتيبي"
+      },
+      {
+        "tag": "Relative_Clause",
+        "description_ar": "الجملة الموصولية التي تصف أو توضح اسمًا في الجملة",
+        "label_ar": "جملة موصولية"
+      },
+      {
+        "tag": "Coordination",
+        "description_ar": "ربط الجمل أو العبارات باستخدام \"و\"، \"أو\"",
+        "label_ar": "عطف",
+        "observed_ar_variant": "عطف/ربط (و/أو)"
+      },
+      {
+        "tag": "Subordination",
+        "description_ar": "جعل جملة تابعة لأخرى باستخدام \"لأن\"، \"رغم أن\"",
+        "label_ar": "تبعية نحوية"
+      },
+      {
+        "tag": "Ellipsis",
+        "description_ar": "حذف عناصر متوقعة من الجملة للإيجاز أو الإيحاء",
+        "label_ar": "حذف تركيبي"
+      }
+    ],
+    "functional": [
+      {
+        "tag": "Act_Call_to_Action",
+        "description_ar": "توجيه الجمهور لفعل معين أو تغيير سلوك محدد بشكل مباشر.",
+        "label_ar": "دعوة إلى الفعل",
+        "observed_ar_variant": "دعوة مباشرة للفعل"
+      },
+      {
+        "tag": "Act_Incitement",
+        "description_ar": "حث الجمهور على اتخاذ مواقف عدائية أو تنفيذ أفعال متطرفة.",
+        "label_ar": "تحريض"
+      },
+      {
+        "tag": "Act_Mobilization",
+        "description_ar": "تنظيم أو استدعاء الجمهور للتجمع أو التحرك من أجل قضية أو هدف معين.",
+        "label_ar": "تعبئة",
+        "observed_ar_variant": "تعبئة"
+      },
+      {
+        "tag": "Act_Delegitimization",
+        "description_ar": "التشكيك في شرعية الطرف الآخر أو نفي حقه في المشاركة أو الوجود.",
+        "label_ar": "سلب الشرعية",
+        "observed_ar_variant": "سلب الشرعية"
+      },
+      {
+        "tag": "Act_Glorification",
+        "description_ar": "تعزيز صورة الذات أو القيم والمبادئ بشكل إيجابي ومبالغ فيه.",
+        "label_ar": "تمجيد",
+        "observed_ar_variant": "تمجيد"
+      },
+      {
+        "tag": "Act_Justification",
+        "description_ar": "شرح أو الدفاع عن موقف أو فعل لجعله مقبولًا أو مبررًا.",
+        "label_ar": "تبرير",
+        "observed_ar_variant": "تبرير"
+      },
+      {
+        "tag": "Act_Condemnation",
+        "description_ar": "رفض أو إدانة أفعال أو مواقف الطرف الآخر أو أحداث معينة.",
+        "label_ar": "إدانة",
+        "observed_ar_variant": "إدانة"
+      },
+      {
+        "tag": "Act_Threat",
+        "description_ar": "التلويح بعقاب أو ضرر محتمل تجاه الطرف الآخر أو الجمهور.",
+        "label_ar": "تهديد",
+        "observed_ar_variant": "تهديد"
+      },
+      {
+        "tag": "Act_Promise",
+        "description_ar": "تقديم وعود لتحقيق مكاسب أو نتائج إيجابية لجمهور الخطاب.",
+        "label_ar": "وعد",
+        "observed_ar_variant": "وعد"
+      },
+      {
+        "tag": "Act_Reassurance",
+        "description_ar": "تهدئة المخاوف وتعزيز الثقة تجاه الموقف أو الفاعل.",
+        "label_ar": "تطمين",
+        "observed_ar_variant": "تطمين"
+      },
+      {
+        "tag": "Act_Warning",
+        "description_ar": "تنبيه الجمهور إلى عواقب سلبية قد تنتج عن تصرفات معينة.",
+        "label_ar": "تحذير",
+        "observed_ar_variant": "تحذير"
+      },
+      {
+        "tag": "Act_Denial",
+        "description_ar": "نفي صحة أو صحة ادعاء أو موقف معين.",
+        "label_ar": "إنكار",
+        "observed_ar_variant": "إنكار"
+      },
+      {
+        "tag": "Act_Exoneration",
+        "description_ar": "رفع المسؤولية عن الذات أو جهة معينة.",
+        "label_ar": "تبرئة"
+      },
+      {
+        "tag": "Act_Questioning",
+        "description_ar": "استخدام الأسئلة لإثارة الشك أو تحفيز التفكير النقدي.",
+        "label_ar": "تساؤل",
+        "observed_ar_variant": "تساؤل/تشكيك"
+      },
+      {
+        "tag": "Act_Rhetorical_Question",
+        "description_ar": "استخدام السؤال كأداة بلاغية لتعزيز موقف أو حث على التفكير.",
+        "label_ar": "سؤال بلاغي"
+      },
+      {
+        "tag": "Act_Contradiction",
+        "description_ar": "دحض أو تفنيد وجهة نظر الخصم أو المعارضة.",
+        "label_ar": "تفنيد",
+        "observed_ar_variant": "تفنيد/مجادلة"
+      },
+      {
+        "tag": "Act_Comparison",
+        "description_ar": "إبراز الفروق أو التشابهات لتعزيز موقف الذات أو نقد الآخر.",
+        "label_ar": "مقارنة",
+        "observed_ar_variant": "مقارنة"
+      },
+      {
+        "tag": "Act_Exaggeration",
+        "description_ar": "المبالغة في وصف أو تصوير قضية لتأثير أقوى.",
+        "label_ar": "تهويل",
+        "observed_ar_variant": "مبالغة/تهويل"
+      },
+      {
+        "tag": "Act_Minimization",
+        "description_ar": "التقليل من أهمية موقف أو حدث لتخفيف تأثيره.",
+        "label_ar": "تهوين",
+        "observed_ar_variant": "تهوين/تقليل"
+      },
+      {
+        "tag": "Act_Appeal_to_Authority",
+        "description_ar": "تعزيز الموقف بالرجوع إلى مصادر أو أشخاص ذوي مكانة.",
+        "label_ar": "استناد إلى سلطة"
+      },
+      {
+        "tag": "Act_Appeal_to_Emotion",
+        "description_ar": "استدعاء مشاعر معينة (كالحزن، الفرح، الغضب) لدعم الخطاب.",
+        "label_ar": "استثارة عاطفية",
+        "observed_ar_variant": "استثارة عاطفية"
+      },
+      {
+        "tag": "Act_Identification",
+        "description_ar": "تشكيل أو تعزيز هوية الجماعة أو الفرد ضمن الخطاب.",
+        "label_ar": "بناء هوية",
+        "observed_ar_variant": "بناء هوية"
+      },
+      {
+        "tag": "Act_Differentiation",
+        "description_ar": "إبراز الفروق والفواصل بين الذات والآخر لتأكيد الهوية أو موقف.",
+        "label_ar": "تمييز"
+      },
+      {
+        "tag": "Act_Attribution",
+        "description_ar": "تحميل طرف معين أفعال أو خصائص محددة.",
+        "label_ar": "إسناد أفعال أو صفات",
+        "observed_ar_variant": "نَسب الأفعال/الصفات"
+      },
+      {
+        "tag": "Act_Admission",
+        "description_ar": "القبول بموقف أو خطأ قد يعزز المصداقية أو يصقل الخطاب.",
+        "label_ar": "اعتراف"
+      },
+      {
+        "tag": "Act_Encouragement",
+        "description_ar": "تحفيز الجمهور على المشاركة أو العمل.",
+        "label_ar": "تشجيع",
+        "observed_ar_variant": "تشجيع"
+      },
+      {
+        "tag": "Act_Apology",
+        "description_ar": "التعبير عن ندم أو طلب العفو لتعزيز العلاقة مع الجمهور.",
+        "label_ar": "اعتذار"
+      },
+      {
+        "tag": "Act_Deflection",
+        "description_ar": "تحويل النقاش أو النقد إلى موضوع آخر لتخفيف الضغط.",
+        "label_ar": "تحويل الانتباه",
+        "observed_ar_variant": "تحويل الانتباه"
+      },
+      {
+        "tag": "Act_Exclusion",
+        "description_ar": "منع أو تجاهل آراء أو أطراف معينة.",
+        "label_ar": "إقصاء"
+      },
+      {
+        "tag": "Act_Inclusion",
+        "description_ar": "توسيع دائرة المشاركة أو الاعتراف بفئات أخرى.",
+        "label_ar": "إدماج"
+      },
+      {
+        "tag": "Act_Negotiation",
+        "description_ar": "محاولة التوصل إلى حلول وسط أو تفاهمات.",
+        "label_ar": "تفاوض"
+      },
+      {
+        "tag": "Act_Acknowledgment",
+        "description_ar": "الاعتراف بحقائق أو مواقف تعزز المصداقية.",
+        "label_ar": "إقرار بواقع",
+        "observed_ar_variant": "إقرار/اعتراف بواقع"
+      },
+      {
+        "tag": "Act_Blame",
+        "description_ar": "تحميل طرف ما مسؤولية خطأ أو فشل.",
+        "label_ar": "إلقاء اللوم",
+        "observed_ar_variant": "لوم"
+      },
+      {
+        "tag": "Act_Hope",
+        "description_ar": "بث التفاؤل وتحفيز التفاؤل تجاه المستقبل.",
+        "label_ar": "أمل",
+        "observed_ar_variant": "أمل"
+      },
+      {
+        "tag": "Act_Fear",
+        "description_ar": "إثارة الخوف كأداة للسيطرة أو الحث على الحذر.",
+        "label_ar": "خوف"
+      },
+      {
+        "tag": "Act_Sarcasm",
+        "description_ar": "التعبير بطريقة ساخرة لتقوية النقد أو التهكم.",
+        "label_ar": "سخرية"
+      },
+      {
+        "tag": "Act_Silencing",
+        "description_ar": "منع الأطراف الأخرى من التعبير أو المشاركة.",
+        "label_ar": "إسكات"
+      },
+      {
+        "tag": "Act_Confession",
+        "description_ar": "الكشف عن معلومات أو مواقف شخصية لتأثير معين.",
+        "label_ar": "إقرار"
+      },
+      {
+        "tag": "Act_Repetition",
+        "description_ar": "تكرار مقصود لتعزيز فكرة أو رسالة.",
+        "label_ar": "تكرار"
+      }
+    ],
+    "discourse": [
+      {
+        "tag": "Title",
+        "description_ar": "عنوان الخطاب أو المقطع",
+        "label_ar": "عنوان",
+        "observed_ar_variant": "عنوان"
+      },
+      {
+        "tag": "Introduction",
+        "description_ar": "افتتاحية الخطاب",
+        "label_ar": "مقدمة",
+        "observed_ar_variant": "مقدمة"
+      },
+      {
+        "tag": "Thesis",
+        "description_ar": "الرسالة أو الفرضية المركزية",
+        "label_ar": "الرسالة المركزية",
+        "observed_ar_variant": "فرضية/رسالة مركزية"
+      },
+      {
+        "tag": "Argument",
+        "description_ar": "عرض حجة أو برهان",
+        "label_ar": "عرض الحجة",
+        "observed_ar_variant": "حجة/برهان"
+      },
+      {
+        "tag": "Rebuttal",
+        "description_ar": "تفنيد لحجة معارضة",
+        "label_ar": "تفنيد"
+      },
+      {
+        "tag": "Conclusion",
+        "description_ar": "خاتمة أو تلخيص",
+        "label_ar": "خاتمة",
+        "observed_ar_variant": "خاتمة"
+      },
+      {
+        "tag": "Transition",
+        "description_ar": "انتقال بين موضوعات أو أفكار",
+        "label_ar": "انتقال",
+        "observed_ar_variant": "انتقال"
+      },
+      {
+        "tag": "SelfRepresentation",
+        "description_ar": "تصوير الذات أو الجماعة بالإيجاب",
+        "label_ar": "تصوير الذات",
+        "observed_ar_variant": "تصوير إيجابي للذات"
+      },
+      {
+        "tag": "Othering",
+        "description_ar": "تصوير الآخر أو الخصم بالسلب",
+        "label_ar": "تصوير الآخر",
+        "observed_ar_variant": "تصوير سلبي للآخر"
+      },
+      {
+        "tag": "IdeologicalMarker",
+        "description_ar": "مؤشر لغوي أيديولوجي",
+        "label_ar": "مؤشر أيديولوجي",
+        "observed_ar_variant": "مؤشر أيديولوجي"
+      },
+      {
+        "tag": "InGroup",
+        "description_ar": "الإحالة إلى \"نحن\"",
+        "label_ar": "الإحالة إلى نحن",
+        "observed_ar_variant": "إحالة إلى نحن"
+      },
+      {
+        "tag": "OutGroup",
+        "description_ar": "الإحالة إلى \"هم\"",
+        "label_ar": "الإحالة إلى هم",
+        "observed_ar_variant": "إحالة إلى هم"
+      },
+      {
+        "tag": "Polarization",
+        "description_ar": "الاستقطاب أو التقابل الثنائي",
+        "label_ar": "استقطاب",
+        "observed_ar_variant": "استقطاب"
+      },
+      {
+        "tag": "MoralAppeal",
+        "description_ar": "مناشدة أخلاقية",
+        "label_ar": "مناشدة أخلاقية",
+        "observed_ar_variant": "مناشدة أخلاقية"
+      },
+      {
+        "tag": "PositiveEmotion",
+        "description_ar": "تعبير عن مشاعر إيجابية",
+        "label_ar": "مشاعر إيجابية",
+        "observed_ar_variant": "مشاعر إيجابية"
+      },
+      {
+        "tag": "NegativeEmotion",
+        "description_ar": "تعبير عن مشاعر سلبية",
+        "label_ar": "مشاعر سلبية",
+        "observed_ar_variant": "مشاعر سلبية"
+      },
+      {
+        "tag": "Empathy",
+        "description_ar": "تعاطف مع جهة معينة",
+        "label_ar": "تعاطف",
+        "observed_ar_variant": "تعاطف"
+      },
+      {
+        "tag": "Blame",
+        "description_ar": "إلقاء اللوم على جهة معينة",
+        "label_ar": "إلقاء اللوم",
+        "observed_ar_variant": "إلقاء اللوم"
+      },
+      {
+        "tag": "Praise",
+        "description_ar": "مديح لجهة معينة",
+        "label_ar": "مديح",
+        "observed_ar_variant": "مديح"
+      },
+      {
+        "tag": "Threat",
+        "description_ar": "تهديد مباشر أو غير مباشر",
+        "label_ar": "تهديد",
+        "observed_ar_variant": "تهديد"
+      },
+      {
+        "tag": "CallToAction",
+        "description_ar": "تحريض أو دعوة لفعل",
+        "label_ar": "دعوة إلى الفعل",
+        "observed_ar_variant": "تحريض/دعوة للفعل"
+      },
+      {
+        "tag": "Metaphor",
+        "description_ar": "استعارة",
+        "label_ar": "استعارة"
+      },
+      {
+        "tag": "Hyperbole",
+        "description_ar": "مبالغة",
+        "label_ar": "مبالغة"
+      },
+      {
+        "tag": "Irony",
+        "description_ar": "سخرية أو تهكم",
+        "label_ar": "سخرية"
+      },
+      {
+        "tag": "Euphemism",
+        "description_ar": "تلطيف لغوي",
+        "label_ar": "تلطيف"
+      },
+      {
+        "tag": "Allusion",
+        "description_ar": "إحالة ضمنية (نصوص/رموز)",
+        "label_ar": "تلميح"
+      },
+      {
+        "tag": "Repetition",
+        "description_ar": "تكرار مقصود",
+        "label_ar": "تكرار"
+      },
+      {
+        "tag": "Parallelism",
+        "description_ar": "توازي بنيوي",
+        "label_ar": "توازٍ بنيوي"
+      },
+      {
+        "tag": "Assertive",
+        "description_ar": "تأكيد معلومة",
+        "label_ar": "تأكيد",
+        "observed_ar_variant": "تقريري"
+      },
+      {
+        "tag": "Directive",
+        "description_ar": "أمر أو طلب مباشر",
+        "label_ar": "توجيه"
+      },
+      {
+        "tag": "Commissive",
+        "description_ar": "التزام أو وعد أو تهديد",
+        "label_ar": "التزام"
+      },
+      {
+        "tag": "Expressive",
+        "description_ar": "تعبير عن مشاعر أو موقف",
+        "label_ar": "تعبير"
+      },
+      {
+        "tag": "Declarative",
+        "description_ar": "إعلان رسمي أو قرار",
+        "label_ar": "إعلان"
+      },
+      {
+        "tag": "Presupposition",
+        "description_ar": "افتراض ضمني",
+        "label_ar": "افتراض مسبق"
+      },
+      {
+        "tag": "Implication",
+        "description_ar": "إيحاء غير مصرح به",
+        "label_ar": "إيحاء"
+      },
+      {
+        "tag": "Silence",
+        "description_ar": "تغييب مقصود لمعلومة حساسة",
+        "label_ar": "صمت"
+      },
+      {
+        "tag": "ReligiousReference",
+        "description_ar": "إحالة إلى نصوص أو رموز دينية",
+        "label_ar": "إحالة دينية",
+        "observed_ar_variant": "إحالة دينية"
+      },
+      {
+        "tag": "HistoricalReference",
+        "description_ar": "إحالة إلى أحداث تاريخية",
+        "label_ar": "إحالة تاريخية",
+        "observed_ar_variant": "إحالة تاريخية"
+      },
+      {
+        "tag": "MediaReference",
+        "description_ar": "إحالة إلى خطاب إعلامي",
+        "label_ar": "إحالة إعلامية"
+      },
+      {
+        "tag": "LegalReference",
+        "description_ar": "إحالة إلى نص قانوني",
+        "label_ar": "إحالة قانونية"
+      },
+      {
+        "tag": "CulturalCode",
+        "description_ar": "رمز ثقافي مألوف",
+        "label_ar": "رمز ثقافي",
+        "observed_ar_variant": "رمز ثقافي"
+      },
+      {
+        "tag": "AuthorityClaim",
+        "description_ar": "ادعاء بالشرعية أو القيادة",
+        "label_ar": "ادعاء السلطة",
+        "observed_ar_variant": "ادعاء سلطة/شرعية"
+      },
+      {
+        "tag": "Subordination",
+        "description_ar": "تصوير طرف بالتبعية",
+        "label_ar": "تبعية"
+      },
+      {
+        "tag": "Dominance",
+        "description_ar": "تصوير طرف بالسيادة",
+        "label_ar": "هيمنة"
+      },
+      {
+        "tag": "Resistance",
+        "description_ar": "تعبير عن الممانعة أو المقاومة",
+        "label_ar": "مقاومة"
+      },
+      {
+        "tag": "Solidarity",
+        "description_ar": "تصوير التماسك الجماعي",
+        "label_ar": "تضامن"
+      },
+      {
+        "tag": "SectarianReference",
+        "description_ar": "إحالة طائفية أو مذهبية",
+        "label_ar": "إحالة طائفية"
+      },
+      {
+        "tag": "GenderBias",
+        "description_ar": "انحياز جندري",
+        "label_ar": "تحيز جندري"
+      },
+      {
+        "tag": "RacialMarker",
+        "description_ar": "تمييز عرقي",
+        "label_ar": "مؤشر عرقي"
+      },
+      {
+        "tag": "ColonialReference",
+        "description_ar": "إحالة استعمارية أو هيمنة",
+        "label_ar": "إحالة استعمارية"
+      },
+      {
+        "tag": "Martyrdom",
+        "description_ar": "خطاب الشهادة/التضحية",
+        "label_ar": "خطاب الشهادة"
+      }
+    ]
+  }
+}
